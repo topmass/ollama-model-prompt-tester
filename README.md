@@ -5,11 +5,10 @@ A Textual-based terminal user interface for interacting with the Ollama API, foc
 ## Features
 
 - List available Ollama models
-- Pull models from Ollama
 - Configure system and user prompts
 - Set model parameters (temperature, max tokens, context window)
 - Run concurrent prompts to test response variance
-- Export results to CSV (coming soon)
+- Export results to CSV
 
 ## Requirements
 
@@ -41,7 +40,7 @@ pip install -r requirements.txt
 
 2. Run the UI:
 ```bash
-python ollama_ui.py
+python main.py
 ```
 
 ## Keyboard Shortcuts
@@ -59,6 +58,7 @@ python ollama_ui.py
   - Max Tokens: Maximum number of tokens to generate
   - Context Window: Size of the context window
   - Concurrency Count: Number of times to run the same prompt
+  - Max Concurrent Requests: Number of requests to run concurrently (1-4 uses more resources)
 - **Buttons**:
   - List Models: Show available local models
   - Pull Model: Download a model from Ollama
