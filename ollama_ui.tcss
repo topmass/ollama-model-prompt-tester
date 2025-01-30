@@ -1,0 +1,75 @@
+#main {
+    height: 100%;
+    padding: 1;
+}
+
+Label {
+    padding: 1;
+    color: $text;
+    text-style: bold;
+    content-align: left middle;
+}
+
+Input {
+    margin: 1;
+    width: 100%;
+    border: solid $primary;
+    background: $panel;
+    color: $text;
+}
+
+Input:focus {
+    border: double $accent;
+}
+
+TextArea {
+    height: 5;
+    margin: 1;
+    border: solid $primary;
+}
+
+#model_selection {
+    layout: horizontal;
+    height: auto;
+    padding: 1;
+    align: left middle;
+}
+
+#model_input {
+    width: 90%;
+    margin-right: 1;
+}
+
+#refresh {
+    min-width: 8;
+    margin-left: 1;
+    padding: 0;
+    content-align: center middle;
+}
+
+#parameters {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 2fr;
+    padding: 1;
+    height: auto;
+    margin: 1;
+}
+
+#buttons {
+    layout: horizontal;
+    align: center middle;
+    padding: 1;
+}
+
+Button {
+    margin: 1 2;
+}
+
+#output {
+    height: 1fr;
+    border: solid $primary;
+    background: $surface;
+    margin: 1;
+    padding: 1;
+} 

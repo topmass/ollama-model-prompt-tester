@@ -1,0 +1,4 @@
+.venv
+*docs.md
+*docs.txt
+*.csv
