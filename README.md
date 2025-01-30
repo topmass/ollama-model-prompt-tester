@@ -65,7 +65,7 @@ python main.py
   - List Models: Show available local models
   - Pull Model: Download a model from Ollama
   - Run: Execute the prompts
-  - Export CSV: Save results to CSV (coming soon)
+  - Export CSV: Save results to CSV
 
 ## License
 
