@@ -2,6 +2,8 @@
 
 A Textual-based terminal user interface for interacting with the Ollama API, focusing on prompt variance testing.
 
+![Screen1](.github/img/screen1.png)
+
 ## Features
 
 - List available Ollama models
